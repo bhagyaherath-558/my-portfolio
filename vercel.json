@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/my-portfolio/(.*)", "destination": "/$1" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}

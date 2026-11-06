@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   FaEnvelope, FaPaperPlane, FaLinkedin, FaGithub, FaFacebook, 
-  FaCheckCircle, FaExternalLinkAlt, FaPaperclip, FaUserCheck 
+  FaCheckCircle, FaExternalLinkAlt, FaPaperclip, 
 } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 

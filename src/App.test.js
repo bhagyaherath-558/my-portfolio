@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders portfolio title and QA Intern badge', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const roleElement = screen.getByText(/Software Quality Assurance Intern \/ QA Enthusiast/i);
+  expect(roleElement).toBeInTheDocument();
 });
